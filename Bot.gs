@@ -2,8 +2,8 @@ const token = 'BOT TOKEN';
 const tgBotUrl = 'https://api.telegram.org/bot' + token;
 const hookUrl = 'WEBHOOK URL';
 const sheetLogId = 'SHEET ID';
-const adminChatId = 'ADMIN CHAT ID (INT)';
-const botId = 'BOT USER ID (INT)';
+const adminChatId = -1; // ADMIN CHAT ID
+const botId = -1; // BOT USER ID
 
 function doGet(e)
 {
